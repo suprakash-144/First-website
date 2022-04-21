@@ -53,7 +53,7 @@ ul li a:hover{
 /* home section  */
 #home::before{ 
     content: " ";
-    background: url(/img/food-366875.jpg) no-repeat center center/cover;
+    background: url(img/food-366875.jpg) no-repeat center center/cover;
     position:absolute;
     height:100%;
     top:0px;
