@@ -1,0 +1,93 @@
+ /* utility classes */
+.center{
+    text-align: center;
+}
+
+.h-secondary{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:2.4rem;
+    padding:12px 20px;
+    /* align-items: center; */
+    text-align: center;
+} 
+/* service section  */
+.services{
+    margin: 10px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .box {
+    border: 1px solid black;
+    margin:20px 50px;
+    border-radius:20px;
+    background-color:rgb(241, 238, 238);
+    padding:50px;
+
+}
+.services .box img{
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius:20px;
+}
+/* client section */
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(/img/salad-bg.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+#client-section{
+    height:400px;
+    position: relative;
+}
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item {
+    padding:34px;
+}
+#clients img{
+    height:120px;
+}
+/* contact section  */
+#contact{ 
+    margin-top:10px;
+    position:relative;}
+#contact::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background:url(/img/contact-us.jpg) no-repeat center center/cover;
+}
+#contact{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:20px;
+    flex-direction: column;
+}
+#contact-box input,
+#contact-box textarea {
+    width:100%;
+    padding:0.5rem;
+    border-radius: 9px;
+    font-size:1.1rem;
+
+}
+#contact-box form {
+    width:40%
+}
+#contact-box label {
+    font-size:1.3rem;
+    font-weight: bold;
+}
