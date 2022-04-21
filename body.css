@@ -35,7 +35,7 @@
 #client-section::before{
     content: "";
     position: absolute;
-    background: url(/img/salad-bg.jpg) no-repeat center center/cover;
+    background: url(img/salad-bg.jpg) no-repeat center center/cover;
     z-index: -1;
     opacity: 0.8;
     height: 100%;
@@ -67,7 +67,7 @@
     width: 100%;
     z-index: -1;
     opacity: 0.7;
-    background:url(/img/contact-us.jpg) no-repeat center center/cover;
+    background:url(img/contact-us.jpg) no-repeat center center/cover;
 }
 #contact{
     display: flex;
